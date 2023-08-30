@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+    name="description"
+    content="Experience the excitement of Piggy Adventure 2.0 - the remastered version of the classic pig-themed dice game! Roll the dice, outsmart your opponents, and have a blast in this upgraded gaming experience."
+  />
+  <link rel="icon" href="pig.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script defer src="script.js"></script>
+    <title>Pig Game Remaster</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="player player--0 player--active">
+        <h1 class="player-name name--0">Player 1</h1>
+        <div class="score" id="score--0">player1</div>
+        <div class="score-box score-box--1">
+          <p>score</p>
+          <div class="current-score" id="current--0">0</div>
+        </div>
+      </section>
+    </div>
+    <div class="container">
+      <section class="player player--1">
+        <h1 class="player-name name--1">Player 2</h1>
+        <div class="score" id="score--1">p</div>
+        <div class="score-box ">
+          <p>score</p>
+          <div class="current-score " id="current--1">0</div>
+        </div>
+      </section>
+      <button class="btn btn--new"><p class="rotate">New Game</p></button>
+      <img src="/dice-5.png" alt="dice" class="dice" id="diceOut"/>
+      <button class="btn btn--roll"><p class="rotate ">Roll</p></button>
+      <button class="btn btn--hold"><p class="rotate">Hold</p></button>
+    </div>
+
+  </body>
+</html>
