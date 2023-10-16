@@ -6,3 +6,5 @@ Introduction:
 The beloved pig-themed dice game is back, and it's better than ever. Roll the dice,
 strategize your moves, and prove you have what it takes to emerge as the ultimate piggy 
 champion."
+
+#hacktoberfest
